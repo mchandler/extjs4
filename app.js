@@ -9,6 +9,10 @@ Ext.application({
 		'SE.view.MainView',
 		'SE.store.GridStore'
 	],
+	
+	controllers: [
+		'SE.controller.SessionController'
+	],
 
 	views: [
 		'LameGrid'
